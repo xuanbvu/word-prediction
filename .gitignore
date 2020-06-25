@@ -1,0 +1,6 @@
+venv
+.vscode
+__pycache__
+messages
+training_checkpoints
+*.txt
