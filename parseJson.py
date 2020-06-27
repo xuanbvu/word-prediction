@@ -9,6 +9,7 @@ for filename in os.listdir("messages"):
     for m in data["messages"]:
         if m["sender_name"] == "Xuan Vu":
             if ("content" in m):
+                # don't add links
                 if "https" not in m["content"]:
                     print(m["content"])
                     all.write(m["content"]+"\n")
